@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe117899-0425-4a1a-aa4c-9da889cf3c91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dodgeIt/dodgeIt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dodgeIt/scripts/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dodgeIt/scripts/game/gameArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dodgeIt/scripts/game/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dodgeIt/scripts/game/pieces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dodgeIt/scripts/game/scoreBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dodgeIt/scripts/lib/require.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dodgeIt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dodgeIt/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../dodgeIt" />
+  </component>
+  <component name="ProjectId" id="1UyX4NR9Aa29uR8cEogk7yH7qzZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../dodgeIt/scripts/game" />
+      <recent name="$PROJECT_DIR$/../dodgeIt/scripts/lib" />
+      <recent name="$PROJECT_DIR$/../dodgeIt/scripts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dodgeIt.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dodgeIt/dodgeIt.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.dodgeIt.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe117899-0425-4a1a-aa4c-9da889cf3c91" name="Default Changelist" comment="" />
+      <created>1576329616696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576329616696</updated>
+      <workItem from="1576329619171" duration="6011000" />
+      <workItem from="1576337693613" duration="11295000" />
+    </task>
+    <task id="LOCAL-00001" summary="first working version of dodgeIt!">
+      <created>1576356353235</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576356353235</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first working version of dodgeIt!" />
+    <option name="LAST_COMMIT_MESSAGE" value="first working version of dodgeIt!" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="744" y="-1047" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576347092256">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="744" y="-1047" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576347092256" />
+    <state x="1003" y="-899" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576349793873">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="1003" y="-899" key="#com.intellij.fileTypes.FileTypeChooser/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576349793873" />
+    <state x="874" y="-1141" key="CommitChangelistDialog2" timestamp="1576356352783">
+      <screen x="0" y="-1417" width="2560" height="1348" />
+    </state>
+    <state x="874" y="-1141" key="CommitChangelistDialog2/-1440.-1417.1440.2537/0.23.1440.877/0.-1417.2560.1348@0.-1417.2560.1348" timestamp="1576356352783" />
+    <state width="2518" height="501" key="GridCell.Tab.0.bottom" timestamp="1576337284070">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.0.bottom/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284070" />
+    <state width="2518" height="501" key="GridCell.Tab.0.bottom/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558189" />
+    <state width="2518" height="501" key="GridCell.Tab.0.center" timestamp="1576337284069">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.0.center/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284069" />
+    <state width="2518" height="501" key="GridCell.Tab.0.center/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558188" />
+    <state width="2518" height="501" key="GridCell.Tab.0.left" timestamp="1576337284068">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.0.left/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284068" />
+    <state width="2518" height="501" key="GridCell.Tab.0.left/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558188" />
+    <state width="2518" height="501" key="GridCell.Tab.0.right" timestamp="1576337284069">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.0.right/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284069" />
+    <state width="2518" height="501" key="GridCell.Tab.0.right/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558189" />
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom" timestamp="1576337284072">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284072" />
+    <state width="2518" height="501" key="GridCell.Tab.1.bottom/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558200" />
+    <state width="2518" height="501" key="GridCell.Tab.1.center" timestamp="1576337284071">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.1.center/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284071" />
+    <state width="2518" height="501" key="GridCell.Tab.1.center/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558199" />
+    <state width="2518" height="501" key="GridCell.Tab.1.left" timestamp="1576337284071">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.1.left/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284071" />
+    <state width="2518" height="501" key="GridCell.Tab.1.left/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558198" />
+    <state width="2518" height="501" key="GridCell.Tab.1.right" timestamp="1576337284072">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.1.right/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284072" />
+    <state width="2518" height="501" key="GridCell.Tab.1.right/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558200" />
+    <state width="2518" height="501" key="GridCell.Tab.2.bottom" timestamp="1576337284075">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.2.bottom/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284075" />
+    <state width="2518" height="501" key="GridCell.Tab.2.bottom/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336557988" />
+    <state width="2518" height="501" key="GridCell.Tab.2.center" timestamp="1576337284074">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.2.center/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284074" />
+    <state width="2518" height="501" key="GridCell.Tab.2.center/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336557986" />
+    <state width="2518" height="501" key="GridCell.Tab.2.left" timestamp="1576337284073">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.2.left/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284073" />
+    <state width="2518" height="501" key="GridCell.Tab.2.left/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336557985" />
+    <state width="2518" height="501" key="GridCell.Tab.2.right" timestamp="1576337284075">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.2.right/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284075" />
+    <state width="2518" height="501" key="GridCell.Tab.2.right/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336557987" />
+    <state width="2518" height="501" key="GridCell.Tab.3.bottom" timestamp="1576337284077">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.3.bottom/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284077" />
+    <state width="2518" height="501" key="GridCell.Tab.3.bottom/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336558006" />
+    <state width="2518" height="501" key="GridCell.Tab.3.center" timestamp="1576337284076">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.3.center/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284076" />
+    <state width="2518" height="501" key="GridCell.Tab.3.center/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336557990" />
+    <state width="2518" height="501" key="GridCell.Tab.3.left" timestamp="1576337284076">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.3.left/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284076" />
+    <state width="2518" height="501" key="GridCell.Tab.3.left/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336557989" />
+    <state width="2518" height="501" key="GridCell.Tab.3.right" timestamp="1576337284077">
+      <screen x="0" y="-1417" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="501" key="GridCell.Tab.3.right/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576337284077" />
+    <state width="2518" height="501" key="GridCell.Tab.3.right/-1440.-1417.1440.2537/0.23.1440.814/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576336557993" />
+    <state x="880" y="-1003" key="Vcs.Push.Dialog.v2" timestamp="1576356680014">
+      <screen x="0" y="-1417" width="2560" height="1348" />
+    </state>
+    <state x="880" y="-1003" key="Vcs.Push.Dialog.v2/-1440.-1417.1440.2537/0.23.1440.877/0.-1417.2560.1348@0.-1417.2560.1348" timestamp="1576356680014" />
+    <state x="946" y="-1083" width="816" height="680" key="find.popup" timestamp="1576351857679">
+      <screen x="0" y="-1417" width="2560" height="1348" />
+    </state>
+    <state x="946" y="-1066" width="816" height="714" key="find.popup/-1440.-1417.1440.2537/0.23.1440.812/0.-1417.2560.1417@0.-1417.2560.1417" timestamp="1576349294727" />
+    <state x="946" y="-1083" width="816" height="680" key="find.popup/-1440.-1417.1440.2537/0.23.1440.877/0.-1417.2560.1348@0.-1417.2560.1348" timestamp="1576351857679" />
+    <state x="945" y="-1109" width="670" height="676" key="search.everywhere.popup" timestamp="1576351182304">
+      <screen x="0" y="-1417" width="2560" height="1348" />
+    </state>
+    <state x="945" y="-1109" width="670" height="676" key="search.everywhere.popup/-1440.-1417.1440.2537/0.23.1440.877/0.-1417.2560.1348@0.-1417.2560.1348" timestamp="1576351182304" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/firstJsGame$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1576332824849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

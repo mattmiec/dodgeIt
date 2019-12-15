@@ -15,6 +15,5 @@ define(['game/gameArea'], function(gameArea) {
 
     return {
         ScoreBox : ScoreBox
-    }
-})
-
+    };
+});

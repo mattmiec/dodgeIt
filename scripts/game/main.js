@@ -1,12 +1,18 @@
-define(['game/piece', 'game/gameArea', 'game/scoreBox', 'game/obstacles'], function (piece,
-                                                                                     gameArea,
-                                                                                     scoreBox,
-                                                                                     ObstacleCollection){
+define(['game/piece',
+    'game/gameArea',
+    'game/scoreBox',
+    'game/obstacles',
+    'game/keyboard'],
+    function (piece,
+              gameArea,
+              scoreBox,
+              ObstacleCollection,
+              Keyboard)
+    {
 
-    let userPiece = new piece.ControlledPiece(20, 20, "blue", gameArea.width()/2, gameArea.height()/2);;
+    let userPiece = new piece.ControlledPiece(20, 20, "blue", gameArea.width()/2, gameArea.height()/2, 2);
     let obstacles = new ObstacleCollection;
-    let myScoreBox = new scoreBox.ScoreBox("20px", "Consolas", "blacK", 320, 40)
-    let key = false;
+    let myScoreBox = new scoreBox.ScoreBox("20px", "Consolas", "black", 15, 30);
     let intervalID;
     let score = 0;
     let frame = 0;
@@ -14,23 +20,22 @@ define(['game/piece', 'game/gameArea', 'game/scoreBox', 'game/obstacles'], funct
     function startGame() {
         gameArea.start();
         obstacles.addBasic();
-        intervalID = setInterval(nextFrame, 10);
-        window.addEventListener('keydown', function (e) {
-            key = e.key;
-        })
-        window.addEventListener('keyup', function (e) {
-            key = false;
-        })
+        intervalID = setInterval(nextFrame, 20);
+        window.addEventListener('keydown', Keyboard.keyDownListener);
+        window.addEventListener('keyup', Keyboard.keyUpListener);
     }
 
     function advancePieces() {
-        if (key == "ArrowRight") {
+        if (Keyboard.arrowRight) {
             userPiece.moveRight();
-        } else if (key == "ArrowDown") {
+        }
+        if (Keyboard.arrowDown) {
             userPiece.moveDown();
-        } else if (key == "ArrowLeft") {
+        }
+        if (Keyboard.arrowLeft) {
             userPiece.moveLeft();
-        } else if (key == "ArrowUp") {
+        }
+        if (Keyboard.arrowUp) {
             userPiece.moveUp();
         }
         obstacles.advance()
@@ -44,29 +49,29 @@ define(['game/piece', 'game/gameArea', 'game/scoreBox', 'game/obstacles'], funct
     }
 
     function nextFrame() {
-        if (obstacles.detectCollision(userPiece)) {
-            clearInterval(intervalID);
-            gameOver();
-            return;
-        }
-        score += obstacles.obstacles.length;
         frame += 1;
         if (frame % 1000 == 0) {
             obstacles.addBasic();
         }
         advancePieces();
         drawGame();
+        if (obstacles.detectCollision(userPiece)) {
+            clearInterval(intervalID);
+            gameOver();
+            return;
+        }
+        score += obstacles.obstacles.length;
     }
 
     function gameOver() {
         var ctx = gameArea.context;
         ctx.font = "40px Consolas";
-        ctx.fillStyle = "black"
+        ctx.fillStyle = "black";
         ctx.fillText("GAME OVER!", 110, gameArea.height()/2);
     }
 
     return {
         start: startGame
-    }
-})
+    };
+});
 

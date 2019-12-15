@@ -5,8 +5,8 @@ define(['game/piece','game/gameArea'], function(piece,
     }
 
     ObstacleCollection.prototype.addBasic = function() {
-        let newPieceWidth = Math.random()*30
-        let newPieceHeight = Math.random()*30
+        let newPieceWidth = Math.random()*30;
+        let newPieceHeight = Math.random()*30;
         let newPieceX = Math.random()*(gameArea.width() - newPieceWidth);
         let newPieceY = Math.random()*(gameArea.height() - newPieceHeight);
         let newPieceVelX = Math.random()*6 - 3;
@@ -18,19 +18,19 @@ define(['game/piece','game/gameArea'], function(piece,
             newPieceY,
             newPieceVelX,
             newPieceVelY))
-    }
+    };
 
     ObstacleCollection.prototype.draw = function() {
         for (obstacle of this.obstacles) {
             obstacle.draw();
         }
-    }
+    };
 
     ObstacleCollection.prototype.advance = function() {
         for (obstacle of this.obstacles) {
             obstacle.advance();
         }
-    }
+    };
 
     ObstacleCollection.prototype.detectCollision = function(piece) {
         for (obstacle of this.obstacles) {
@@ -39,7 +39,7 @@ define(['game/piece','game/gameArea'], function(piece,
             }
         }
         return false;
-    }
+    };
 
     return ObstacleCollection;
-})
+});

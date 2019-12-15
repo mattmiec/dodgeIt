@@ -1,18 +1,19 @@
-define(['game/pieces', 'game/gameArea', 'game/scoreBox'], function (pieces,
-                                                                    gameArea,
-                                                                    scoreBox){
-    let userPiece;
-    let gamePiece;
-    let myScoreBox
-    let key;
-    let intervalID
+define(['game/piece', 'game/gameArea', 'game/scoreBox', 'game/obstacles'], function (piece,
+                                                                                     gameArea,
+                                                                                     scoreBox,
+                                                                                     ObstacleCollection){
+
+    let userPiece = new piece.ControlledPiece(20, 20, "blue", gameArea.width()/2, gameArea.height()/2);;
+    let obstacles = new ObstacleCollection;
+    let myScoreBox = new scoreBox.ScoreBox("20px", "Consolas", "blacK", 320, 40)
+    let key = false;
+    let intervalID;
+    let score = 0;
+    let frame = 0;
 
     function startGame() {
-        score = 0;
         gameArea.start();
-        myScoreBox = new scoreBox.ScoreBox("20px", "Consolas", "blacK", 320, 40)
-        userPiece = new pieces.ControlledPiece(20, 20, "blue", gameArea.width()/2, gameArea.height()/2);
-        gamePiece = new pieces.MovingPiece(20, 20, "red", 20, 20, 2, 2);
+        obstacles.addBasic();
         intervalID = setInterval(nextFrame, 10);
         window.addEventListener('keydown', function (e) {
             key = e.key;
@@ -32,24 +33,27 @@ define(['game/pieces', 'game/gameArea', 'game/scoreBox'], function (pieces,
         } else if (key == "ArrowUp") {
             userPiece.moveUp();
         }
-        gamePiece.advance()
+        obstacles.advance()
     }
 
     function drawGame() {
         gameArea.clear();
-        myScoreBox.incrementScore();
-        myScoreBox.draw()
         userPiece.draw();
-        gamePiece.draw();
+        obstacles.draw();
+        myScoreBox.draw(score)
     }
 
     function nextFrame() {
-        if (userPiece.collision(gamePiece)) {
+        if (obstacles.detectCollision(userPiece)) {
             clearInterval(intervalID);
             gameOver();
             return;
         }
-        score +=1;
+        score += obstacles.obstacles.length;
+        frame += 1;
+        if (frame % 1000 == 0) {
+            obstacles.addBasic();
+        }
         advancePieces();
         drawGame();
     }
@@ -57,8 +61,8 @@ define(['game/pieces', 'game/gameArea', 'game/scoreBox'], function (pieces,
     function gameOver() {
         var ctx = gameArea.context;
         ctx.font = "40px Consolas";
-        ctx.fillStyle = "blacK"
-        ctx.fillText("GAME OVER!", 120, gameArea.height()/2);
+        ctx.fillStyle = "black"
+        ctx.fillText("GAME OVER!", 110, gameArea.height()/2);
     }
 
     return {

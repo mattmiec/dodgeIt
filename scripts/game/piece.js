@@ -105,7 +105,6 @@ define(['game/gameArea'], function(gameArea) {
     }
 
 
-
     return {
         MovingPiece: MovingPiece,
         ControlledPiece: ControlledPiece

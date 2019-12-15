@@ -5,11 +5,7 @@ define(['game/gameArea'], function(gameArea) {
         this.color = color;
         this.x = x;
         this.y = y;
-        this.score = 0;
-        this.incrementScore = function() {
-            this.score += 1;
-        }
-        this.draw = function() {
+        this.draw = function(score) {
             var ctx = gameArea.context;
             ctx.font = this.size + " " + this.font;
             ctx.fillStyle = this.color;
